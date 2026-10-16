@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hanting Meng — Contact Me</title>
+  <meta name="description" content="Get in touch with Hanting Meng.">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💌</text></svg>">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <nav class="nav container" aria-label="Primary navigation">
+      <a class='brand' href='index.html'>
+        <span class="brand-mark" aria-hidden="true">H</span>
+        <span class="brand-name">Hanting Meng</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-menu" aria-label="Toggle navigation menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-menu" id="nav-menu">
+        <li><a class='nav-link' href='index.html'>Home</a></li>
+        <li><a class='nav-link' href='resume.html'>Resume</a></li>
+        <li><a class='nav-link' href='projects.html'>Projects</a></li>
+        <li><a aria-current='page' class='nav-link' href='contact.html'>Contact Me</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="page-hero container reveal">
+      <span class="eyebrow">Say hello</span>
+      <h1>Contact Me</h1>
+      <p class="lead">Whether it's a project, a question, or just a really good coffee shop recommendation — I'd love to hear from you. I usually reply within a day or two.</p>
+    </section>
+
+    <section class="section container">
+      <div class="contact-layout">
+
+        <!-- ===== Ways to reach me ===== -->
+        <div class="contact-info">
+          <div class="info-card reveal">
+            <span class="info-icon coral" style="background:var(--coral-soft)" aria-hidden="true">✉️</span>
+            <div>
+              <h3>Email</h3>
+              <a href="mailto:2028991179@qq.com">2028991179@qq.com</a>
+            </div>
+          </div>
+
+          <div class="info-card reveal">
+            <span class="info-icon" style="background:var(--amber-soft)" aria-hidden="true">🐙</span>
+            <div>
+              <h3>GitHub</h3>
+              <a href="https://github.com/" target="_blank" rel="noopener noreferrer">github.com/hantingmeng</a>
+            </div>
+          </div>
+
+          <div class="info-card reveal">
+            <span class="info-icon" style="background:var(--sky-soft)" aria-hidden="true">💼</span>
+            <div>
+              <h3>LinkedIn</h3>
+              <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">linkedin.com/in/hantingmeng</a>
+            </div>
+          </div>
+
+          <div class="info-card reveal">
+            <span class="info-icon" style="background:var(--sage-soft)" aria-hidden="true">📍</span>
+            <div>
+              <h3>Based in</h3>
+              <p>Suzhou, China — happy to connect with people from anywhere.</p>
+            </div>
+          </div>
+
+          <div class="reveal">
+            <p class="muted" style="margin-bottom:0.6rem">Or find me hanging out here:</p>
+            <div class="contact-social">
+              <a class="social-btn" href="https://github.com/" target="_blank" rel="noopener noreferrer">🐙 GitHub</a>
+              <a class="social-btn" href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">💼 LinkedIn</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- ===== Contact form ===== -->
+        <div class="card form-card reveal">
+          <form id="contact-form" novalidate>
+            <div class="form-grid">
+              <div class="form-field">
+                <label for="name">Your name</label>
+                <input type="text" id="name" name="name" placeholder="Jamie Doe" autocomplete="name" required>
+              </div>
+
+              <div class="form-field">
+                <label for="email">Your email</label>
+                <input type="email" id="email" name="email" placeholder="you@example.com" autocomplete="email" required>
+              </div>
+
+              <div class="form-field full">
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject" placeholder="Let's build something!">
+              </div>
+
+              <div class="form-field full">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" placeholder="Tell me a little about what you have in mind…" required></textarea>
+              </div>
+
+              <div class="form-field full">
+                <button class="btn btn-primary" type="submit" style="justify-content:center">Send message ✨</button>
+              </div>
+            </div>
+
+            <p class="form-success" id="form-success" role="status" aria-live="polite">
+              🎉 Thanks! Your message is on its way — I'll get back to you soon.
+            </p>
+          </form>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p class="fun-fact">
+        <span class="fun-fact-badge">Fun fact</span>
+        <span>I can solve a Rubik's Cube in under two minutes (on a good day) and I'm mildly obsessed with baking the perfect sourdough loaf.</span>
+      </p>
+      <nav class="footer-links" aria-label="Footer navigation">
+        <a href='index.html'>Home</a>
+        <a href='resume.html'>Resume</a>
+        <a href='projects.html'>Projects</a>
+        <a href='contact.html'>Contact Me</a>
+      </nav>
+      <p class="copyright">© <span id="year">2026</span> Hanting Meng · Made with care and probably too much coffee.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hanting Meng — Hi, welcome!</title>
+  <meta name="description" content="The personal website of Hanting Meng — first-year master's student in Digital Education, lifelong learner, and curious builder.">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>👋</text></svg>">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <nav class="nav container" aria-label="Primary navigation">
+      <a class='brand' href='index.html'>
+        <span class="brand-mark" aria-hidden="true">H</span>
+        <span class="brand-name">Hanting Meng</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-menu" aria-label="Toggle navigation menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-menu" id="nav-menu">
+        <li><a aria-current='page' class='nav-link' href='index.html'>Home</a></li>
+        <li><a class='nav-link' href='resume.html'>Resume</a></li>
+        <li><a class='nav-link' href='projects.html'>Projects</a></li>
+        <li><a class='nav-link' href='contact.html'>Contact Me</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- ============ Hero / introduction ============ -->
+    <section class="hero container">
+      <div class="hero-text">
+        <span class="hero-hello"><span class="wave" aria-hidden="true">👋</span> Hi there, I'm</span>
+        <h1>Hanting <span class="accent">Meng</span></h1>
+        <p class="hero-tagline">First-year master's student in Digital Education, lifelong learner, and curious builder.</p>
+        <p class="lead">
+          Welcome to my little corner of the internet! I'm a first-year master's student in
+          Digital Education, exploring how thoughtful technology and design can make learning
+          more human, playful, and accessible. When I'm not studying, you'll find me planning
+          my next trip, getting lost in a good movie, or hunting down the most delicious food
+          in town. I believe the best learning experiences — like the best things in life —
+          are made with care, curiosity, and a sense of humor.
+        </p>
+        <div class="hero-actions">
+          <a class='btn btn-primary' href='projects.html'>See what I've built</a>
+          <a class='btn btn-ghost' href='contact.html'>Say hello</a>
+        </div>
+      </div>
+
+      <div class="hero-photo-wrap">
+        <div class="hero-blob" aria-hidden="true"></div>
+        <div class="hero-photo">
+          <img
+            src="images/headshot.jpg"
+            alt="Photo of Hanting Meng smiling and making a peace sign on the sports field at night"
+            width="380" height="380">
+        </div>
+        <span class="float-badge badge-1" aria-hidden="true">✈️ Always planning a trip</span>
+        <span class="float-badge badge-2" aria-hidden="true">🌱 Always learning</span>
+      </div>
+    </section>
+
+    <!-- ============ Three things I like ============ -->
+    <section class="section container" aria-labelledby="likes-heading">
+      <div class="section-head reveal">
+        <span class="eyebrow">A few favorites</span>
+        <h2 id="likes-heading">Three things I absolutely love</h2>
+        <p class="muted">When I'm not at my desk, you can usually find me doing one of these.</p>
+      </div>
+
+      <div class="likes-grid">
+        <article class="like-card reveal">
+          <div class="like-icon coral" aria-hidden="true">✈️</div>
+          <h3>Travelling</h3>
+          <p>I love exploring new cities and cultures — and I firmly believe the best way to know a place is to get pleasantly lost in it (snacks in hand).</p>
+        </article>
+
+        <article class="like-card reveal">
+          <div class="like-icon sage" aria-hidden="true">🎬</div>
+          <h3>Watching movies</h3>
+          <p>Give me a cozy evening, a good film, and a blanket and I'm happy — anything from animated gems to indie dramas and feel-good comedies.</p>
+        </article>
+
+        <article class="like-card reveal">
+          <div class="like-icon amber" aria-hidden="true">🍜</div>
+          <h3>Tasting delicious food</h3>
+          <p>I'm on a lifelong mission to find the perfect bowl of noodles. Street stalls, home cooking, hidden hole-in-the-walls — I'll try it all.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- ============ Friendly CTA ============ -->
+    <section class="section container" aria-label="Get in touch">
+      <div class="cta-band reveal">
+        <h2>Let's make something nice together</h2>
+        <p>Questions, ideas, or just want to swap coffee recommendations? My inbox is always open.</p>
+        <a class='btn' href='contact.html'>Get in touch</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p class="fun-fact">
+        <span class="fun-fact-badge">Fun fact</span>
+        <span>I can solve a Rubik's Cube in under two minutes (on a good day) and I'm mildly obsessed with baking the perfect sourdough loaf.</span>
+      </p>
+      <nav class="footer-links" aria-label="Footer navigation">
+        <a href='index.html'>Home</a>
+        <a href='resume.html'>Resume</a>
+        <a href='projects.html'>Projects</a>
+        <a href='contact.html'>Contact Me</a>
+      </nav>
+      <p class="copyright">© <span id="year">2026</span> Hanting Meng · Made with care and probably too much coffee.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>
